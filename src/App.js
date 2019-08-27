@@ -1,14 +1,11 @@
 import React from 'react'
 import './App.css'
 
-import rafa from './assets/img/rafa.jpg'
+import TechList from './components/TechList'
 
 function App(){
   return (
-    <div>
-      <h1>Primeiro App</h1>
-      <img src={rafa} width="200" alt=""/>
-    </div>
+    <TechList />
   )
 }
 
